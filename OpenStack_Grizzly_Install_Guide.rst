@@ -673,6 +673,8 @@ Status: Stable
    
    #Modify the quantum user
    quantum ALL=NOPASSWD: ALL
+   
+   #for Ubuntu 12.04 the location is /etc/sudoers.d/quantum_sudoers
 
 * Restart all the services::
 
